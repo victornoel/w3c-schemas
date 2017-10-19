@@ -3,3 +3,6 @@
     not recognized and the test will fail because of a missing schema.
 --
 REWRITE_SYSTEM "http://www.w3.org" "maven:org.hisrc.w3c:w3c-schemas:jar::!/w3c"
+
+PUBLIC "http://www.w3.org/2003/05/soap-encoding" "maven:org.hisrc.w3c:w3c-schemas:jar::!/w3c/2003/05/soap-encoding.xsd"
+PUBLIC "http://www.w3.org/2003/05/soap-envelope" "maven:org.hisrc.w3c:w3c-schemas:jar::!/w3c/2003/05/soap-envelope.xsd"

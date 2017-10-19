@@ -1,0 +1,9 @@
+PUBLIC "http://schemas.xmlsoap.org/wsdl/" "maven:org.hisrc.w3c:w3c-schemas:jar::!xmlsoap/schemas/wsdl.xsd"
+PUBLIC "http://schemas.xmlsoap.org/wsdl/soap/" "maven:org.hisrc.w3c:w3c-schemas:jar::!xmlsoap/schemas/wsdl/soap.xsd"
+PUBLIC "http://schemas.xmlsoap.org/wsdl/mime/" "maven:org.hisrc.w3c:w3c-schemas:jar::!xmlsoap/schemas/wsdl/mime.xsd"
+PUBLIC "http://schemas.xmlsoap.org/wsdl/http/" "maven:org.hisrc.w3c:w3c-schemas:jar::!xmlsoap/schemas/wsdl/http.xsd"
+PUBLIC "http://schemas.xmlsoap.org/wsdl/soap12/" "maven:org.hisrc.w3c:w3c-schemas:jar::!xmlsoap/schemas/wsdl/soap12/wsdl11soap12.xsd"
+PUBLIC "http://schemas.xmlsoap.org/soap/encoding/" "maven:org.hisrc.w3c:w3c-schemas:jar::!xmlsoap/schemas/soap/encoding.xsd"
+PUBLIC "http://schemas.xmlsoap.org/soap/envelope/" "maven:org.hisrc.w3c:w3c-schemas:jar::!xmlsoap/schemas/soap/envelope.xsd"
+
+REWRITE_SYSTEM "http://schemas.xmlsoap.org/wsdl/soap12/ "maven:org.hisrc.w3c:w3c-schemas:jar::!xmlsoap/schemas/wsdl/soap12/"

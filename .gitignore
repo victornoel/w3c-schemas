@@ -1,2 +1,6 @@
 /err
 /std
+target/
+.classpath
+.project
+.settings/
